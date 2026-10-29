@@ -7194,3 +7194,8 @@ msm-wroclaw.pl##+js(noeval-if, _0x)
 
 ! https://www.reddit.com/r/cybersecurity/comments/1xekbvs/anyone_actually_gotten_a_phishing_site_taken_down/
 ||despegar.vercel.app^$all
+
+! MythStealer / LofyStealer known signatures, malicious Minecraft modpack trojans sent over Discord
+/^https?:\/\/cdn\.discordapp\.com\/[^?]*\/(?:[A-Z][a-z]+SMP.zip|[A-Za-z_]+Mod.zip)(?:\?|$)/$document,match-case
+/^https?:\/\/cdn\.discordapp\.com\/[^?]*\.(?:jar|mrpack|litemod|mcpack|mcaddon)(?:\?|$)/$document
+
